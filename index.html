@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Weather Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Global Weather Tracker</h1>
+    </header>
+    <main>
+        <section id="search">
+            <input type="text" id="location" placeholder="Enter location or country">
+            <button onclick="setWhether()">Search</button>
+        </section>
+        <section id="weatherDisplay">
+            <img src="" alt="" id="whether-icon"  >
+        <div><h2 id="set-location" style="font-weight: bolder;">Location: --</h2>
+            <p id="set-temperature" style="font-weight: bolder;">Temperature: -- °C</p>
+            <p id="set-description" style="font-weight: bolder;">Description: --</p>
+            <p id="set-humidity" style="font-weight: bolder;">Humidity: --%</p>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Weather Website</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
