@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Weather Tracker</title>
+    <link rel="stylesheet" href="style.css">
+   
+    
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Global Weather Tracker</h1>
+        </header>
+        <main>
+            <section id="search">
+                <input type="text" id="location" placeholder="Enter location or country">
+                <button onclick="setWheather()">Search</button>
+            </section>
+            <section id="weatherDisplay">
+                <img src="" alt="" id="whether-icon">
+                <p id="discription"></p>
+                <div>
+                    <h2 id="set-location"> </h2>
+                    <p id="set-temperature"> </p>
+                    <!-- <p id="set-description">Description: --</p>
+                    <p id="set-humidity">Humidity: --%</p> -->
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2025 G. W. T.</p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

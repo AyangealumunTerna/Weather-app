@@ -1,0 +1,59 @@
+@font-face{
+    font-family: poppins;
+    src: url(fonts/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    background-color: white;
+}
+#container{
+    margin: auto;
+    margin-top: 70px;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(13, 13, 58);
+    color: white;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+}
+img{
+    margin-top: 70px;
+}
+
+h1{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 60px;
+    width: 200px;
+    
+}
+p{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 250px;
+    font-size: 12px;
+   
+    
+}
+
+a{
+    background-color: rgba(64, 224, 208, 0.863);
+    color: white;
+    font-weight: bolder;
+    padding: 15px 50px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
